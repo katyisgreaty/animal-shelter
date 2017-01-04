@@ -15,3 +15,7 @@ img{
   text-align: center;
   font-family: courier;
 }
+
+body h1{
+  color: blue;
+}
