@@ -7,8 +7,10 @@ img{
 
 .profile{
   width: 30%;
+  height: 40%;
   float:left;
-  padding: 20px;
+  padding: 1%;
+  background-color: yellow;
 }
 
 .profile h3{
