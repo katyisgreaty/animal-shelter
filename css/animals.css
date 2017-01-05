@@ -11,7 +11,10 @@ img{
   height: 300px;
   float:left;
   padding: 1%;
-  background-color: yellow;
+  background-color: #CCCCFF;
+  border: solid black 3px;
+  margin: 3px;
+  border-radius: 75px;
 }
 
 .profile h3{
@@ -20,19 +23,19 @@ img{
 }
 
 body h1{
-  color: blue;
+  color: #FFFFCC;
+  text-align: center;
+  font-size: 100px;
 }
 
 .textbox{
   height: 100px;
-  background-color: orange;
 }
 
-@media screen and (min-width: 700px) and (max-width: 1000px){
-  .column {
-    width: 300px;
-    float: left;
-    padding: 20px;
+@media screen and (max-width: 1000px) and (min-width: 700px){
+  body {
+    background-color: red;
+    color: white;
   }
 }
 
@@ -41,4 +44,9 @@ body h1{
     background-color: black;
     color: white;
   }
+}
+
+body{
+  background-image: url("../img/nature.jpeg");
+  background-size: 100%;
 }
